@@ -8,7 +8,7 @@
         if(!empty($_POST['bcode']))
             echo'<img class="barcode-image" src=https://www.barcodesinc.com/generator/image.php?code='.$_POST["bcode"].'&style=197&type=C128B&width=200&height=50&xres=1&font=3 alt="'.$_POST["bcode"].'">';
         else
-            echo'<span class="barcode-image">YOU HAVE NOT ENTERED ANY NUMBER</span>';
+            echo'<span class="barcode-image">ENTER A CODE!</span>';
         }   
 
 
