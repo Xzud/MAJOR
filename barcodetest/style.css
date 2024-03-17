@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 * {
     margin: none;
     box-sizing: border-box;
-
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -56,4 +58,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.barcode-image {
+    color: white;
 }
